@@ -1,6 +1,6 @@
 import streamlit as st
 import pymongo
-url=st.secrets(url)
+url=st.secrets('url')
 
 # Initialize connection.
 # Uses st.cache_resource to only run once.
