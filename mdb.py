@@ -1,6 +1,7 @@
 import streamlit as st
 import pymongo
-url="mongodb+srv://gafincalci:gafincalci2023@cluster0.sheemzs.mongodb.net/test"
+url=st.secrets["url"])
+
 # Initialize connection.
 # Uses st.cache_resource to only run once.
 #@st.cache_resource
